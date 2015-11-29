@@ -1,9 +1,9 @@
 # OpenBLAS
-A Perl6 NativeCall interface to (OpenBLAS)[http://www.openblas.net/].
+A Perl6 NativeCall interface to [OpenBLAS](http://www.openblas.net/).
 
 ## Usage
 
-Documentation is available at (http://netlib.org/blas/)[http://netlib.org/blas/].
+Documentation is available at [http://netlib.org/blas/](http://netlib.org/blas/).
 
 Hopefully this module will get more user-friendly as shaped arrays are better
 understood and implemented in Rakudo.
