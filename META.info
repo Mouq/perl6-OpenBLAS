@@ -1,0 +1,10 @@
+{
+    "name": "OpenBLAS",
+    "version": "0.1.0",
+    "description": "NativeCall interface to OpenBLAS",
+    "author": "Mouq",
+    "provides": {
+        "OpenBLAS": "lib/OpenBLAS.pm"
+    },
+    "depends": [ "NativeCall" ]
+}
