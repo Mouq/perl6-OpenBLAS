@@ -1,9 +1,12 @@
-# perl6-OpenBLAS
-NativeCall interface to OpenBLAS
+# OpenBLAS
+A Perl6 NativeCall interface to (OpenBLAS)[http://www.openblas.net/].
 
 ## Usage
 
-Documentation is available at [http://netlib.org/blas/]. Hopefully this module will get more user-friendly as shaped arrays are better understood and implemented in Rakudo.
+Documentation is available at (http://netlib.org/blas/)[http://netlib.org/blas/].
+
+Hopefully this module will get more user-friendly as shaped arrays are better
+understood and implemented in Rakudo.
 
 ```perl6
 use NativeCall;
@@ -16,7 +19,7 @@ my @b := CArray[num32].new;
 say sdot(100, @a, 1, @b, 1); # @a · @b
 ```
 
-For many subroutines, the certain arguments require an enum value.
+For many subroutines, certain arguments require an enum value.
 
 Currently, this doesn't work right :( Investigation ongoing.
 
